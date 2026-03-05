@@ -49,7 +49,10 @@ button {
 }
 
 #save-btn {
-    background: rgb(0, 156, 0);
+    background: rgb(212, 206, 206);
+}
+#reset-btn {
+    background: rgb(255, 98, 0);
 }
 #increment-btn:hover{
     background-color: #ffb35688;
@@ -60,12 +63,20 @@ button {
     background-color: #ffb35688;
  
 }
+#reset-btn:hover{
+    background-color: #ffb35688;
+ 
+}
 #increment-btn:active{
     background-color: #ffb356;
     
 
 }
 #save-btn:active{
+    background-color: #ffb356;
+}
+
+#reset-btn:active{
     background-color: #ffb356;
 }
 

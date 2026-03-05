@@ -5,7 +5,7 @@ let countEl = document.getElementById("count-el")
 let count = 0
 
 
-
+let prev = " "
 function increment(){
     
     count += 1
@@ -16,17 +16,30 @@ function increment(){
 
 
 function save(){
-    let prev = count + " -  "
+    prev = count + " -  "
+    
     saveEl.textContent += prev
     
     countEl.textContent = 0
     count = 0
+    
 
 
-    // console.log(count)----- optional
+    console.log(count)
+    
+}
+function reset(){
+    countEl.textContent = 0
+    saveEl.textContent = " Previous Entries: "
+
+    
+
 }
 
 
+//what are we doing?
+//reset button , clears all previous entries
+//but retains the text p Previous entries
 
 
 
